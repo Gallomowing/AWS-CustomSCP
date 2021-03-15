@@ -4,6 +4,7 @@
     {
       "Effect": "Deny",
       "Action": [
+        "ec2:DeleteFlowLogs",
         "logs:DeleteLogGroup",
         "logs:DeleteLogStream"
       ],
